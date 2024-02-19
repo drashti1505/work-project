@@ -1,0 +1,236 @@
+body
+{
+ text-decoration: none !important;
+ list-style-type: none !important;
+ overflow-x: hidden;
+}
+
+.nav 
+{
+   width: 100%;
+   height: auto;
+}
+.nav-link li 
+{
+   padding: 5px 20px !important;
+   list-style: none !important;
+   list-style-type: none !important;
+   text-decoration: none !important;
+   display: inline !important;
+   
+}
+
+.nav-link li a 
+{
+   text-decoration: none;
+   color: white;
+}
+
+#slider
+{
+    width: 100%;
+    height: 430px;
+    position: relative;
+    background: url('...:\website\1.png') ;
+    background-size: cover;
+}
+ .carousel-item{
+   
+    display: none;
+ } 
+ #Overview{
+    font-size: 16px;
+  
+
+ }
+ .book-view a {
+
+color: black;
+}
+
+ .col-img{
+    height: 340px;
+ 
+ }
+ #about{
+   
+   /* height: 110%; */
+   
+    
+ }
+ 
+ i{
+   /* position:absolute; */
+   padding: 2px;
+   margin-top: 8px;
+   margin-left: 5px;
+   
+ }
+ #contact
+ {
+  background-color: lightgray;
+ }
+ 
+
+
+
+ @media only screen and (min-width:320px) and (max-width:480px)
+ {
+  
+   body
+   {
+    text-decoration: none !important;
+    list-style-type: none !important;
+    overflow-x: hidden !important;
+    margin: auto !important;
+    padding:auto !important;
+    
+    /* overflow-y: hidden !important; */
+   }
+   
+   .nav 
+   {
+      width: 100%;
+      height: auto;
+   }
+   .nav-link li 
+   {
+      flex-direction: column !important;
+        display: flex !important;
+      padding: 5px 20px !important;
+      list-style: none !important;
+      list-style-type: none !important;
+      text-decoration: none !important;
+      /* display: inline !important; */
+      /* display: inline-block !important; */
+      
+   }
+   
+   .nav-link li a 
+   {
+      text-decoration: none;
+      color: white;
+   }  
+   .search {
+       width: 80% !important;    
+      height: auto !important;
+    
+   } 
+   .carousel-item{
+   
+      display: none;
+   } 
+   #Overview{
+      font-size: 16px;
+      width: 75% !important;
+      height: auto!important;
+    
+  
+   }
+  
+   .carousel-item{
+   
+    display: none;
+ } 
+ #Overview{
+    font-size: 16px;
+  
+
+ }
+ .book-view a {
+
+color: black;
+}
+
+.par
+{
+   margin-left: 30% !important;
+   width: 98% !important;
+   height: auto !important;
+   margin-top:20px !important ;
+   
+}
+
+.p-5
+{
+   padding: 5px !important;
+}
+.book{
+   margin-left: 50% !important;
+   margin-top: 5px !important; 
+   text-align: center !important;
+}
+.hrow
+{ 
+    display: none !important;
+ }
+ .col-img{
+ padding-top: 1px !important;
+  margin: 1% !important; 
+width: 100% !important;
+ }
+ #about{
+   margin-top: 200% !important;
+    height: auto !important;
+   
+    
+ }
+ .prices
+ {
+   text-align: justify;
+    display: flexbox !important;
+     
+ }
+ .prices img
+ {
+     width: 100% !important;
+     height: auto !important;
+ }
+ 
+#contact
+ {
+  background-color: lightgray;
+  margin-bottom: 20px !important;
+ }
+ .con {
+   width: 89% !important;
+   height: auto !important;
+}
+.fom
+{
+   margin: center !important;
+   width: 95% !important; 
+   margin-inline: 0px !important;
+   margin-right: 16px !important;
+   margin: center !important;  
+}
+.con-img{
+   display: none !important;
+
+}
+.h2
+{
+   margin-bottom: 5% !important;
+   
+}
+.use
+{
+    margin: 5px !important; 
+}
+.add
+{
+   margin: 5px !important;
+}
+#content
+{
+   width: 100% !important;
+   height: auto !important;
+   margin-right: 60px !important;
+   margin-bottom: 1px !important;
+}
+
+.con-img 
+{
+   display: none !important;
+}
+ }  
